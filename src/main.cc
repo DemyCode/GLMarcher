@@ -13,7 +13,8 @@ int main(int argc, char *argv[])
     int width = 1024;
     int height = 512;
     std::string vertex = "../src/vertex.shd";
-    std::string fragment = "../src/fragment.shd";
+   // std::string fragment = "../src/fragment.shd";
+    std::string fragment = "../src/fragment3.shd";
 
     MarchGlut glut = MarchGlut(argc, argv, width, height, nullptr);
     glut.init();
