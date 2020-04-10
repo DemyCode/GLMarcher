@@ -15,6 +15,8 @@ int main(int argc, char *argv[])
     std::string vertex = "../src/vertex.shd";
    // std::string fragment = "../src/fragment.shd";
     std::string fragment = "../src/fragment3.shd";
+    if (argc > 1)
+        fragment = argv[1];
 
     MarchGlut glut = MarchGlut(argc, argv, width, height, nullptr);
     glut.init();
